@@ -5,6 +5,7 @@ export let data = [
   technologies: ["Vite", "TypeScript", "Tailwind CSS", "DaisyUI", "Node", "React", "HTML", "CSS"],
   imageURL: "../images/portfolioImage.png",
   githubURL: "https://github.com/andy9299/portfolio",
+  deploymentURL: "https://andy9299.github.io/portfolio"
 },
 {name: "jp-trainer",
 lastUpdate: "Oct 23, 2023",
