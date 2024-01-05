@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <h1 className='text-6xl font-bold p-8'>
         Projects
       </h1>
-      <div className='grid grid-cols-3 items-center justify-items-center gap-x-5 '>
+      <div className='grid  items-center justify-items-center gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
         {data.map((proj) => (
           <div className="card w-96 bg-base-100 shadow-xl card-bordered	border-white">
             <figure className='border'><img src={proj.imageURL} alt={proj.name} /></figure>
