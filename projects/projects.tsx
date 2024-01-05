@@ -15,14 +15,14 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </h1>
       <div className='grid  items-center justify-items-center gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3'>
         {data.map((proj) => (
-          <div className="card w-96 bg-base-100 shadow-xl card-bordered	border-white">
+          <div key={proj.name} className="card w-96 bg-base-100 shadow-xl card-bordered	border-white">
             <figure className='border'><img src={proj.imageURL} alt={proj.name} /></figure>
             <div className="card-body">
               <h2 className="card-title font-bold text-2xl">{proj.name}</h2>
                 <p>{proj.description}</p>
               <div className="card-actions justify-end">
                 {proj.technologies.map((tech) => (
-                  <div className="badge badge-outline">{tech}</div> 
+                  <div className="badge badge-outline" key={tech}>{tech}</div> 
                 ))}
               </div>
               <div className="card-actions justify-end">
