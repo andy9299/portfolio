@@ -9,23 +9,14 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <main>
     <div className='flex h-screen w-full items-center justify-center'>
-      {/* <div className='grid grid-cols-2 grid-rows-1 divide-x-2 divide-solid'>
-        <div>
-          <h1 className='text-[10rem] pr-8 '>At</h1>
-        </div>
-        <div className='pl-8 flex flex-col justify-center'>
-          <a href='/projects/' className='text-2xl hover:underline'>Projects</a>
-          <a className='text-2xl hover:underline'>About Me</a>
-        </div>
-      </div> */}
       <div className="flex flex-col lg:flex-row">
       <div>
         <h1 className='text-[10rem] '>At</h1>
       </div>
       <div className="divider lg:divider-horizontal"></div> 
       <div className='flex flex-col justify-center'>
-          <a href='/projects/' className='text-2xl hover:underline'>Projects</a>
-          <a href='/about/' className='text-2xl hover:underline'>About Me</a>
+          <a href='/portfolio/projects/' className='text-2xl hover:underline'>Projects</a>
+          <a href='/portfolio/about/' className='text-2xl hover:underline'>About Me</a>
       </div>
     </div>
       <div className='absolute bottom-0 flex h-20 gap-10'>

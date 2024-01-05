@@ -45,7 +45,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         )}
         
       </div>
-      <a href="/" className='hover:underline p-20'>Home</a>
+      <a href="/portfolio/" className='hover:underline p-20'>Home</a>
     </main>
   </React.StrictMode>,
 )

@@ -46,7 +46,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         trying out new games! I recently got into playing Arknights. Not only that but also I really want to get into single-player 
         games, so please suggest me some!
       </p>
-      <a href="/" className='hover:underline p-20'>Home</a>  
+      <a href="/portfolio/" className='hover:underline p-20'>Home</a>  
     </main>
   </React.StrictMode>,
 )
