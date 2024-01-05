@@ -4,12 +4,10 @@ import './About.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <main className='flex flex-col max-w-3xl items-center content-center px-4 py-8 space-y-2'>
-      <div>
-        <h1 className='text-6xl font-bold	pb-8'>
-          About Me
-        </h1>
-      </div>
+    <main className='flex flex-col max-w-3xl items-center content-center space-y-2'>
+      <h1 className='text-6xl font-bold	p-8'>
+        About Me
+      </h1>
       <h2 className='font-semibold pb-3 text-2xl'>
         🗺️ My Journey 🗺️
       </h2>
@@ -48,9 +46,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         trying out new games! I recently got into playing Arknights. Not only that but also I really want to get into single-player 
         games, so please suggest me some!
       </p>
-      <div className='absolute bottom-0 flex h-20 gap-10'>
-        <a href="/" className='hover:underline'>Home</a>
-      </div>
+      <a href="/" className='hover:underline p-20'>Home</a>  
     </main>
   </React.StrictMode>,
 )

@@ -1,6 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './Main.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -26,9 +29,15 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       </div>
     </div>
       <div className='absolute bottom-0 flex h-20 gap-10'>
-        <a href="https://github.com/andy9299" className='hover:underline'>GitHub</a>
-        <a href="https://www.linkedin.com/in/andy-tu-58a797149/" className='hover:underline'>LinkedIn</a>
-        <a href="mailto:andy.tu998@gmail.com" className='hover:underline'>andy.tu998@gmail.com</a>
+        <div>
+          <FontAwesomeIcon icon={faGithub} size="lg"/> <a href="https://github.com/andy9299" className='hover:underline'>GitHub</a>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faLinkedin} size="lg"/> <a href="https://www.linkedin.com/in/andy-tu-58a797149/" className='hover:underline'>LinkedIn</a>
+        </div>
+        <div>
+          <FontAwesomeIcon icon={faEnvelope} size="lg"/> <a href="mailto:andy.tu998@gmail.com" className='hover:underline'>andy.tu998@gmail.com</a>
+        </div>
       </div>
     </div>
     </main>
