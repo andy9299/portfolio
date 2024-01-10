@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom/client'
 import './Projects.css'
 import { data } from './data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <main className='flex flex-col items-center content-center'>
+    <main className='flex flex-col items-center content-center static'>
+      <div className="absolute inset-8 ">
+       <a href='/portfolio/' className='hover:underline'>← Go Home</a>
+      </div>
       <h1 className='text-6xl font-bold p-8'>
         Projects
       </h1>
@@ -45,7 +48,9 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         )}
         
       </div>
-      <a href="/portfolio/" className='hover:underline p-20'>Home</a>
+      <div className='hover:underline p-20'>
+          <FontAwesomeIcon icon={faEnvelope} size="lg"/> <a href="mailto:andy.tu998@gmail.com" className='hover:underline'>andy.tu998@gmail.com</a>
+      </div>
     </main>
   </React.StrictMode>,
 )

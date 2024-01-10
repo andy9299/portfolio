@@ -1,6 +1,6 @@
 export let data = [
   {name: "portfolio", 
-  lastUpdate: "Jan 1, 2024", 
+  lastUpdate: "Jan 9, 2024", 
   description: "My portfolio site! I tried using new technologies to get introduced to it. Though some I used very lightly, but if I add more stuff surely I'll get to it!",
   technologies: ["Vite", "TypeScript", "Tailwind CSS", "DaisyUI", "Node", "React", "HTML", "CSS"],
   imageURL: "../images/portfolioImage.png",
