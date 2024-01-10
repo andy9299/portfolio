@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './Projects.css'
 import { data } from './data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGlobe, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -47,9 +47,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
           </div>)
         )}
         
-      </div>
-      <div className='hover:underline p-20'>
-          <FontAwesomeIcon icon={faEnvelope} size="lg"/> <a href="mailto:andy.tu998@gmail.com" className='hover:underline'>andy.tu998@gmail.com</a>
       </div>
     </main>
   </React.StrictMode>,

@@ -1,8 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './About.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
@@ -51,9 +49,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         trying out new games! I recently got into playing Arknights. Not only that but also I really want to get into single-player 
         games, so please suggest me some!
       </p>
-      <div className='hover:underline p-20'>
-          <FontAwesomeIcon icon={faEnvelope} size="lg"/> <a href="mailto:andy.tu998@gmail.com" className='hover:underline'>andy.tu998@gmail.com</a>
-      </div>
     </main>
   </React.StrictMode>,
 )
