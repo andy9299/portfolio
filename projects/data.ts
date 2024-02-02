@@ -1,6 +1,14 @@
 export let data = [
-  {name: "portfolio", 
-  lastUpdate: "Jan 9, 2024", 
+{name: "unfinity-extras-helper", 
+  lastUpdate: "Feb 2, 2024", 
+  description: "A webapp for helping users manage certain Unfinity cards from Magic: The Gathering",
+  technologies: ["Vite", "JavaScript", "Tailwind CSS", "Node", "React Router", "React", "HTML", "CSS"],
+  imageURL: "../images/unfinityImage.png",
+  githubURL: "https://github.com/andy9299/unfinity-extras-helper",
+  deploymentURL: "https://andy9299.github.io/unfinity-extras-helper/"
+},
+{name: "portfolio", 
+  lastUpdate: "Feb 2, 2024", 
   description: "My portfolio site! I tried using new technologies to get introduced to it. Though some I used very lightly, but if I add more stuff surely I'll get to it!",
   technologies: ["Vite", "TypeScript", "Tailwind CSS", "DaisyUI", "Node", "React", "HTML", "CSS"],
   imageURL: "../images/portfolioImage.png",
